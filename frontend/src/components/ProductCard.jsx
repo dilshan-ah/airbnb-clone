@@ -1,8 +1,5 @@
 import Studio from '../assets/studio/studio-one.jpg'
 import { IoMdStar } from "react-icons/io";
-import { MdOutlineFavorite } from "react-icons/md";
-import { MdOutlineFavoriteBorder } from "react-icons/md";
-import { Link } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

@@ -39,3 +39,36 @@
 .swiper-pagination-bullet,.swiper-pagination-bullet-active{
     background-color: white;
 }
+
+
+.myStudioRoom .swiper-button-next,.myStudioRoom .swiper-button-prev{
+    opacity: 1 !important;
+}
+
+.myStudioRoom .swiper-button-disabled{
+    opacity: 0 !important;
+}
+
+.rdp-cell{
+    padding: 0 2px;
+}
+
+.rdp-button{
+    border-radius: 100% !important;
+}
+
+.rdp-day_range_start{
+    background-color: rgb(3 7 18);
+}
+
+.rdp-day_range_middle{
+    background-color: rgb(107 114 128);
+}
+
+.rdp-day_range_end{
+    background-color: rgb(3 7 18);
+}
+
+.rdp-day_disabled{
+    text-decoration: line-through;
+}
