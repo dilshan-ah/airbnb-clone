@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-button-next,.swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 15px;
+    box-shadow: 1px -1px 20px 1px rgba(0,0,0,0.71);
+    opacity: 0;
+}
+
+.swiper-button-disabled{
+    opacity: 0 !important;
+}
+
+.card:hover .swiper-button-next,.card:hover .swiper-button-prev{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card:hover .swiper-button-disabled{
+    opacity: 0.35 !important;
+}
+
+.swiper-button-next:after,.swiper-button-prev:after{
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.swiper-pagination-bullet{
+    opacity: 0.9 !important;
+}
+
+.swiper-pagination-bullet,.swiper-pagination-bullet-active{
+    background-color: white;
+}
