@@ -5,6 +5,7 @@ import { GrFavorite } from "react-icons/gr";
 import StudioPic from '../assets/studio/studio-one.jpg'
 import { BsFillGridFill } from "react-icons/bs";
 import { IoMdStar } from "react-icons/io";
+import { LuDoorOpen } from "react-icons/lu";
 
 
 const Studio = () => {
@@ -64,9 +65,9 @@ const Studio = () => {
           <h2 className="text-2xl	font-semibold flex flex-1 items-center">Studio in London, England</h2>
           <p className="text-gray-500 text-base">A big appartment with a lots of other services</p>
 
-          <div className="flex items-center text-base">
+          <div className="flex items-center text-base font-bold">
             <IoMdStar className="text-2xl pr-1" />
-            No Reviews yet
+            4.84 <span className="pl-3 underline cursor-pointer">586 Reviews</span>
           </div>
 
           <div className="divider"></div>
@@ -80,6 +81,34 @@ const Studio = () => {
           </div>
 
           <div className="divider"></div>
+
+          <div className="card card-side bg-base-100 p-5 w-fit">
+            <figure><LuDoorOpen className="text-2xl"/></figure>
+            <div className="card-body py-0 px-5 gap-0">
+              <h2 className="card-title text-base font-bold">Self check-in</h2>
+              <p className="text-sm">You can check in with the building staff.</p>
+            </div>
+          </div>
+
+          <div className="card card-side bg-base-100 p-5 w-fit">
+            <figure><LuDoorOpen className="text-2xl"/></figure>
+            <div className="card-body py-0 px-5 gap-0">
+              <h2 className="card-title text-base font-bold">Self check-in</h2>
+              <p className="text-sm">You can check in with the building staff.</p>
+            </div>
+          </div>
+
+          <div className="card card-side bg-base-100 p-5 w-fit">
+            <figure><LuDoorOpen className="text-2xl"/></figure>
+            <div className="card-body py-0 px-5 gap-0">
+              <h2 className="card-title text-base font-bold">Self check-in</h2>
+              <p className="text-sm">You can check in with the building staff.</p>
+            </div>
+          </div>
+
+          <div className="divider"></div>
+
+
         </div>
         <div className="col-span-2"></div>
       </div>
